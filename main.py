@@ -1,1 +1,5 @@
-print('hello world')
+number = input("Введіть 4-х значне число: ")
+print(int(number) // 1000)
+print((int(number) % 1000) // 100)
+print((int(number) % 100) // 10)
+print(int(number) % 10)
