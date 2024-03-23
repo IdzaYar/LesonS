@@ -1,11 +1,6 @@
 def pow(x):
     return x ** 2
 def some_gen(begin, end, func):
-    """
-    begin: перший елемент
-    end: кількість елементів
-    func: функція, яка формує значення
-    """
     result = begin
     for _ in range(end):
         yield result
